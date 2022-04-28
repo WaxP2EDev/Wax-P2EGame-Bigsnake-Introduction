@@ -1,0 +1,117 @@
+.roadmap-title {
+	font-family: "snake-font";
+	width: 40%;
+    margin: auto;
+	margin-bottom: 30px;
+}
+.roadmap-content1 {
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+    justify-content: space-between;
+	font-size: 2vw;
+	div.text{
+		padding: 60px;
+		padding-left: 7%;
+		background: url('../../image/roadmap_paper.png') no-repeat;
+		background-size: 100% 100%;
+	}
+	div.nft{
+		display: flex;
+    	align-items: center;
+	}
+	
+}
+
+.roadmap-content2 {
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+    justify-content: space-between;
+	font-size: 2vw;
+	div.text{
+		padding: 60px;
+		padding-left: 7%;
+		background: url('../../image/roadmap_paper.png') no-repeat;
+		background-size: 100% 100%;
+	}
+	div.nft{
+		display: flex;
+    	align-items: center;
+	}
+}
+
+.roadmap-space {
+	height: 500px;
+}
+
+@media only screen and (max-width: 1580px) {
+	.roadmap-space {
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.roadmap-space {
+		height: 200px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.roadmap-space {
+		height: 100px;
+	}
+}
+
+
+@media only screen and (max-width: 1035px) {
+	.roadmap-space {
+		height: 0px;
+	}
+}
+
+@media only screen and (max-width: 985px) {
+    .roadmap-content1 {
+		justify-content: left;
+		div.nft{
+			display:none;
+		}
+	}
+	
+	.roadmap-content2 {
+		justify-content: right;
+		div.nft{
+			display:none;
+		}
+	}
+}
+
+@media only screen and (max-width: 944px) {
+    .roadmap-content1 {
+		margin-left: 10%;
+		font-size: 16px;
+	}
+	
+	.roadmap-content2 {
+		margin-right: 10%;
+		font-size: 16px;
+	}
+}
+
+
+@media only screen and (max-width: 480px) {
+    .roadmap-content1 {
+		font-size: 3vw;
+		div.text{
+			padding: 30px;
+		}
+		
+	}
+	
+	.roadmap-content2 {
+		font-size: 3vw;
+		div.text{
+			padding: 30px;
+		}
+	}
+}
